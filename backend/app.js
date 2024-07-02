@@ -12,7 +12,7 @@ app.use(bodyParser.json());
 
 // CORS configuration
 const corsOptions = {
-  origin: 'http://localhost:3002', // your frontend origin
+  origin: 'https://vercel.com/inaaras-projects/landing-page-app/4jCUuCVCkxjVnyoJgt4pEMwLYuXf', // your frontend origin
   optionsSuccessStatus: 200,
 };
 app.use(cors(corsOptions));
