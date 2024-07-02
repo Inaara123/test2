@@ -1,0 +1,37 @@
+{
+  "development": {
+    "username": "couponcode_user",
+    "password": "HJah6mEl8yBXUVDTHZbRS42krDfC5Ia6",
+    "database": "couponcode",
+    "host": "dpg-cptsr8t2ng1s73e6enqg-a.singapore-postgres.render.com",
+    "dialect": "postgres",
+    "dialectOptions": {
+      "ssl": {
+        "require": true,
+        "rejectUnauthorized": false  
+      }
+    },
+    "pool": {
+      "max": 5,
+      "min": 0,
+      "idle": 10000,
+      "acquire": 60000
+    }
+  },
+  "production": {
+    "use_env_variable": "DATABASE_URL",
+    "dialect": "postgres",
+    "dialectOptions": {
+      "ssl": {
+        "require": true,
+        "rejectUnauthorized": false  
+      }
+    },
+    "pool": {
+      "max": 5,
+      "min": 0,
+      "idle": 10000,
+      "acquire": 60000
+    }
+  }
+}
